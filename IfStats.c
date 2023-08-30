@@ -23,13 +23,24 @@ int main()
         printf("False\n");
     }
 
-    if (3 == 3) {
+    if (3 == 3)
+    { // equal
         printf("True\n");
     }
 
-    if (3 != 2)
+    if (3 != 2) // not equal
     {
         printf("False\n");
+    }
+
+    if (!(3 > 2))
+    {
+        printf("** False\n"); // see nothing
+    }
+
+    if (!(3 < 2))
+    {
+        printf("** False\n"); // see nothing
     }
 
     return 0;
