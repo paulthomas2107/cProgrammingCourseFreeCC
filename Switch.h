@@ -1,0 +1,1 @@
+void checkGrade(char grade);
