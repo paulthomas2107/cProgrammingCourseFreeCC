@@ -19,5 +19,12 @@ int main()
     printf("GPA's memory address is %p\n", pGpa);
     printf("Grade's memory address is %p\n", pGrade);
 
+    // Dereferening pointers
+    // All pointers are memory addresses
+    printf("%d\n", *pAge); // 30....dereference
+    printf("%d\n", *&age); // 30....dereference
+    printf("%d\n", *&*&age); // 30
+
     return 0;
 }
+    
