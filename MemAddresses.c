@@ -15,5 +15,5 @@ void run()
     double gpa = 3.4;
     char grade = 'A';
 
-    
+    printf("Age: %p\nGPA: %p\nGrade: %p\n", &age, &gpa, &grade);
 };
